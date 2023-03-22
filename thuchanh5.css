@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+  background-color:rgb(104, 194, 194);
+  color: white;
+}
+.header-1{
+    background-color:rgb(69, 66, 95);
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    padding: 0 80px;
+    color:white;
+    align-items: center
+    ;
+}
+
+.header-2{
+    display: flex;
+   gap: 20px;
+   font-size: 12px;
+}
+.header-a{
+   text-align: center;
+   margin:30px;
+   padding:30px;
+}
+.main{
+    text-align: center;
+  margin: 70px;
+}
+img{
+    width:200px;
+    height:200px
+}
+.main-1{
+    width:689px;
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin:auto;
+}
+.about{
+    background-color:  rgb(104, 194, 194);
+    text-align: center;
+    padding: 40px;
+    color:white;
+}
+.about-bottom{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap:25px;
+}
+.btn{
+    padding:10px;
+    margin:20px;
+}
+.contact{
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-form input{
+   border: none;
+   border-bottom: 1px dotted red;
+   padding:13px;
+}
+
+.contact-form input:focus{
+    outline:none;
+}
+.bnt{
+    color: white;
+    padding:7px;
+    margin:52px;
+    background-color: rgb(8, 67, 67);
+}
+.foot{
+    background-color: rgb(131, 126, 174);
+    display: flex;
+    justify-content:center;
+    padding: 30px 80px;
+    gap: 250px;
+}
+.foot-img {
+    display: flex;
+    justify-content: space-between;
+}
+.fish{
+background-color: rgb(69, 66, 95);
+text-align: center;
+padding: 20px;
+}

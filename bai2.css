@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.A{
+    background-color: rgb(156, 152, 186);
+    margin-left: 430px;
+}
+
+.container{
+  background-color:rgb(104, 194, 194);
+  color: white;
+  width: 400px;
+
+}
+.header-1{
+    background-color:rgb(69, 66, 95);
+    justify-content:space-between;
+    height: 70px;
+    padding:20px 20px;
+    color:white;
+    display: flex;
+}
+
+.header-2{
+    display: flex;
+   gap: 20px;
+   font-size: 12px;
+}
+.header-a{
+   text-align: center;
+   margin-top: 30px;
+   padding:30px;
+}
+
+.main{
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+}
+img{
+    width:200px;
+    height:200px
+}
+.main-1{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about{
+    background-color:  rgb(104, 194, 194);
+    text-align: center;
+    padding: 20px;
+    color:white;
+    width:400px;
+}
+.about-bottom{
+    padding: 20px;
+}
+.btn{
+    padding:10px;
+    margin:20px;
+}
+
+.contact{
+    text-align: center;
+    width:400px;
+    background-color: white;
+
+}
+
+.contact-form input{
+    border: none;
+   border-bottom: 1px dotted red;
+   padding:13px;
+}
+
+.contact-form input:focus{
+    outline:none;
+}
+.bnt{
+    color: white;
+    padding:7px;
+    margin:52px;
+    background-color: rgb(8, 67, 67);
+}
+.foot{
+    background-color: rgb(131, 126, 174);
+    padding: 30px 80px;
+    width: 400px;
+    text-align: center;
+}
+.foot-img {
+    display: flex;
+    justify-content:center;
+}
+
+.foot div {
+    margin-top: 10px;
+}
+.fish{
+    background-color: rgb(69, 66, 95);
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+}
